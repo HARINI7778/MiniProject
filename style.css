@@ -1,0 +1,249 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f860;
+    gap:3px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+
+/* Content styling */
+.content {
+    padding: 16px;
+    margin-left: 60px; /* Adjust margin to avoid overlay */
+}
+
+/* Content styling */
+.content {
+    padding: 16px;
+    margin-left: 60px; /* Adjust margin to avoid overlay */
+}
+
+
+/* Menu Toggle Button for Mobile */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+/* Hero Section */
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f0f0f0;
+}
+
+#home h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+#home p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.image-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about-image {
+    max-width: 90%;
+    height: auto;
+
+}
+
+/* Services Section */
+#services {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+}
+
+#services h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.video-container {
+    display: grid;
+    gap: 67px;
+    justify-content: center;
+}
+
+.video-box h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 64%;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+
+
+
